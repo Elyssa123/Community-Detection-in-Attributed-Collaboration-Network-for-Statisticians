@@ -1,14 +1,13 @@
-This package contains the data and the computer code to reproduce the results in 
-Zhang, Pan and Wang's paper titled "Community Detection in Attributed Collaboration Network for Statisticians".
+This package contains the data and the computer code to reproduce the results in Zhang, Pan and Wang's paper titled "Community Detection in Attributed Collaboration Network for Statisticians".   
+====
+   
 
-
-
+## Data
 It contains 1 data file: 
 
 coauthorship(43journal)_core3.RData     -- the "igraph" graph with 1489 nodes and their attributes
 
-
-
+## Code
 The Code folder contains our own code to reproduce the results in the paper, as well as the R code for ECV (Li et al., 2020), ANCA (Falih et al., 2017), SCORE (Jin et al., 2015; Ji et al., 2016) and the comparison metrics:
 
 main.R     -- the main code to reproduce the results in the paper
@@ -22,9 +21,7 @@ SCORE.R    --the functions used in the SCORE
 comparison_metrics.R    --the metrics to measure community detection results
 
 
-
-
-
+## References
 Jin, J. et al. (2015). Fast community detection by score. Annals of Statistics, 43(1):57-89.
 
 Ji, P., Jin, J., et al. (2016). Coauthorship and citation networks for statisticians. The Annals of Applied Statistics, 10(4):1779-1812.
